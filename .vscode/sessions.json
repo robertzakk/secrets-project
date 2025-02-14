@@ -1,0 +1,33 @@
+{
+  "$schema": "https://cdn.statically.io/gh/nguyenngoclongdev/cdn/main/schema/v10/terminal-keeper.json",
+  "theme": "tribe",
+  "active": "default",
+  "activateOnStartup": true,
+  "keepExistingTerminals": false,
+  "sessions": {
+    "default": [
+      {
+        "name": "Secrets Project",
+        "autoExecuteCommands": true,
+        "icon": "debug-console",
+        "color": "terminal.ansiGreen"
+      },
+      [
+        {
+          "name": "server:dev",
+          "commands": [
+            "yarn backend"
+          ]
+        }
+      ],
+      [
+        {
+          "name": "client:dev",
+          "commands": [
+            "yarn frontend"
+          ]
+        }
+      ]
+    ]
+  }
+}

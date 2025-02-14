@@ -1,4 +1,8 @@
 {
   "name": "Secrets Project",
-  "packageManager": "yarn@4.4.1"
+  "packageManager": "yarn@4.4.1",
+  "scripts": {
+    "backend": "yarn --cwd ./backend dev",
+    "frontend": "yarn --cwd ./frontend dev"
+  }
 }
