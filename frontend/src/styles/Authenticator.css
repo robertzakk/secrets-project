@@ -1,0 +1,100 @@
+.authentication {
+    display: flex;
+    flex-direction: column;
+    max-width: 50rem;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.authentication form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: #212f36;
+}
+
+.authentication form label {
+    color: #a1b8c3;
+}
+
+.authentication form input {
+    height: 2rem;
+    border-radius: 1rem;
+    border-style: none;
+    margin: 1rem 0;
+    background-color: #0F4C75;
+    color: #BBE1FA;
+    padding: 1.5rem;
+    font-size: 1.7rem;
+}
+
+.authentication form input:focus {
+    outline: none;
+    background-color: #175680;
+    border: solid 0.15rem;
+}
+
+.authentication button {
+    color: white;
+    background-color: #3282B8;
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    border-style: none;
+    margin: 1rem 0;
+
+    transition-property: background-color, color;
+    transition-duration: 0.4s;
+}
+
+.authentication button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #3282B8;
+}
+
+.authentication button:focus {
+    outline: none;
+    border: 0.15rem solid;
+}
+
+.authentication h3 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: 5rem 0;
+    font-size: 2rem;
+}
+
+.authentication h3::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 0.2rem;
+    margin: auto 0;
+    background-color: #212f36;
+    z-index: -1;
+}
+
+.authentication h3::after {
+    content: '';
+    position: absolute;
+    width: 7rem;
+    margin: auto auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 7rem;
+    border-radius: 10rem;
+    background-color: #1B262C;
+    border: 0.15rem solid #212f36;
+    z-index: -1;
+}
