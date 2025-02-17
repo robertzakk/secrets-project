@@ -17,6 +17,7 @@
 
 .authentication form label {
     color: #a1b8c3;
+    font-size: 2rem;
 }
 
 .authentication form input {

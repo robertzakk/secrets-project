@@ -7,9 +7,6 @@ function Header() {
         <>
             <header>
                 <h1>Secrets Project</h1>
-                <button onClick={() => {
-                    axios.get('http://localhost:8080/user');
-                }}>Request User</button>
             </header>
         </>
     );
